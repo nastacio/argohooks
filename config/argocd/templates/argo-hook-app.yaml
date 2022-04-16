@@ -9,7 +9,7 @@ spec:
   destination:
     namespace: openshift-gitops
     server: https://kubernetes.default.svc
-  project: default
+  project: argo-control-plane
   source:
     helm:
       parameters:
