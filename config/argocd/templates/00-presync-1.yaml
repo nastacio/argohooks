@@ -21,7 +21,7 @@ spec:
               set -eo pipefail
               set -x
               
-              sleep 120
+              sleep 10
 
       restartPolicy: Never
       serviceAccountName: default
